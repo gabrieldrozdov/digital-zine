@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Digital Zine</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Helvetica', sans-serif;
+			color: #2a2b2e;
+			font-weight: bold;
+			letter-spacing: -.05em;
+			line-height: 1em;
+		}
+		html {
+			scroll-behavior: smooth;
+		}
+		body {
+			background-color: #2a2b2e;
+		}
+		.container {
+			width: fit-content;
+			height: 100dvh;
+			display: grid;
+			grid-auto-columns: 600px;
+			grid-auto-flow: column;
+			padding: 1px;
+		}
+		.container div {
+			background-color: #d6b547;
+			padding: 40px 20px;
+			overflow-x: hidden;
+			overflow-y: scroll;
+			display: flex;
+			flex-direction: column;
+			gap: 25px;
+			border-radius: 25px;
+			font-size: 60px;
+			border: 1px solid #2a2b2e;
+		}
+		h1 {
+			font-size: 100px;
+			line-height: 0.9em;
+		}
+		h2 {
+			font-size: 60px;
+			padding-top: 4px;
+		}
+		a:hover {
+			text-decoration: none;
+		}
+		a:active {
+			opacity: .5;
+		}
+		ol {
+			margin-top: 15px;
+			font-size: 30px;
+			list-style: decimal inside none;
+		}
+		li {
+			padding-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div style="background-color: yellow;">
+			<h1>Approaches to digital storytelling</h1>
+			<p style="font-size: 30px;">*Indicates that website uses JavaScript to achieve primary layout or function</p>
+			<ol class="index" start="0">
+				<li><a href="#0">Learn web design and development</a></li>
+				<li><a href="#1">Play with typography</a></li>
+				<li><a href="#2">Categorize information</a></li>
+				<li><a href="#3">Explore the extremes of specific properties</a></li>
+				<li><a href="#4">Give your audience ways to interact</a></li>
+				<li><a href="#5">Disregard contemporary web norms</a></li>
+				<li><a href="#6">(My websites)</a></li>
+			</ol>
+			<a style="font-size: 30px;" href="https://github.com/gabrieldrozdov/digital-zine" target="_blank">GitHub Repository</a>
+			<p style="font-size: 30px;">Reach out if you ever have questions! <a href="mailto:gabrieldrozdov@gmail.com">Gabriel Drozdov</a></p>
+		</div>
+		<div id="0" style="background-color: hotpink;">
+			<h2>0. Learn web design and development</h2>
+			<a href="https://jgthms.com/web-design-in-4-minutes/" target="_blank">Web Design in 4 minutes</a>
+			<a href="https://gabrieldrozdov.github.io/wpw22/" target="_blank">Web Programming Workshop 2022</a>
+			<a href="./github-tutorial.pdf" target="_blank">GitHub/GitHub Pages tutorial</a>
+			<a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a>
+			<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN</a>
+			<a href="https://flexboxfroggy.com/" target="_blank">Flexbox Froggy</a>
+			<a href="https://cssgridgarden.com/" target="_blank">CSS Grid Garden</a>
+			<a href="https://codepen.io/search/pens?q=" target="_blank">CodePen</a>
+			<a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/" target="_blank">Paul Ford, <em>What Is Code?*</em></a>
+			<a href="https://luckysoap.com/statements/handmadeweb.html" target="_blank">J. R. Carpenter, <em>A Handmade Web</em></a>
+		</div>
+		<div id="1" style="background-color: lightgreen;">
+			<h2>1. Play with typography</h2>
+			<a href="./demo-typography/" target="_blank">oOo</a>
+			<a href="https://authentic.website/" target="_blank">AUTHENTIC</a>
+			<a href="https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20" target="_blank">Text to ASCII art</a>
+			<a href="https://vf.webtype.xyz/" target="_blank">Variable font specimens from Marie Otsuka’s Web Type course</a>
+			<a href="https://gabrieldrozdov.github.io/risd22-webtype/projects/specimen/" target="_blank">Mini Mochi</a>
+			<a href="https://type.lol/" target="_blank">Type Foundry Index</a>
+			<a href="http://onelongscream.com/" target="_blank">one long scream*</a>
+			<a href="https://tdingsun.github.io/reading-machines/" target="_blank">Reading Machines*</a>
+		</div>
+		<div id="2" style="background-color: lightskyblue;">
+			<h2>2. Categorize information</h2>
+			<a href="https://www.anthonyantonellis.com/publicdomain/" target="_blank">Public Domain</a>
+			<a href="https://websafe2k16.com/" target="_blank">Websafe 2k16</a>
+			<a href="https://fictionalbrandsarchive.com/" target="_blank">Fictional Brands Archive</a>
+			<a href="http://toactivelyproducesilence.com/" target="_blank">to actively produce silence</a>
+			<a href="http://lucy-ives.com/" target="_blank">Lucy Ives</a>
+			<a href="https://www.luigigorlero.com/" target="_blank">Luigi Gorlero</a>
+			<a href="https://hii-mag.com/" target="_blank">Hii Magazine</a>
+			<a href="https://jameshfisher.com/" target="_blank">James Fisher</a>
+			<a href="https://bored.solutions/" target="_blank">bored.solutions</a>
+			<a href="https://www.design-research.be/by-womxn/" target="_blank">LIBRE FONTS FOR WOMXN</a>
+			<a href="https://gabrieldrozdov.github.io/what-is-wikipedia/" target="_blank">What Is Wikipedia?*</a>
+		</div>
+		<div id="3" style="background-color: mistyrose;">
+			<h2>3. Explore the extremes of specific properties</h2>
+			<a href="./demo-lengthen/" target="_blank">Uh oh</a>
+			<a href="https://web.archive.org/web/20140310190221/http://www.sewingandembroiderywarehouse.com/embtrb.htm" target="_blank">Embroidery Trouble Shooting Guide</a>
+			<a href="https://smallsites.gdwithgd.com/?site=gentle-giant" target="_blank">A gentle giant asking for directions to the local bowling alley</a>
+			<a href="https://smallsites.gdwithgd.com/?site=ants-yelling" target="_blank">A colony of ants yelling as loud as they possibly can</a>
+			<a href="https://github.com/cyanharlow/purecss-lace" target="_blank">Pure CSS Lace</a>
+		</div>
+		<div id="4" style="background-color: orange;">
+			<h2>4. Give your audience ways to interact</h2>
+			<a href="./demo-adventure/" target="_blank">Can I take your order?</a>
+			<a href="https://www.are.na/jakob-hoffmann/talia-cotton-workshop" target="_blank">Talia Cotton Workshop</a>
+			<a href="https://taliacotton.com/students/fall2022/" target="_blank">Core Interaction Fall 2022</a>
+			<a href="https://rhombuspress.com/" target="_blank">Rhombus Press</a>
+			<a href="https://web.archive.org/web/20200110141620/http://www.onemilescroll.com/" target="_blank">One Mile Scroll</a>
+			<a href="https://web.archive.org/web/20190228043123/https://anettelenz.com/" target="_blank">Anette Lenz</a>
+			<a href="http://www.untold-stories.net/" target="_blank">Untold Stories</a>
+			<a href="https://untitledsans.com/" target="_blank">Untitled Sans*</a>
+			<a href="https://gabrieldrozdov.github.io/zooooooom/" target="_blank">Zoooooooom*</a>
+			<a href="https://www.sometimesredsometimesblue.com/" target="_blank">Sometimes Red, Sometimes Blue*</a>
+			<a href="https://extendedwhanau.com/" target="_blank">The Extended Whānau*</a>
+		</div>
+		<div id="5" style="background-color: salmon;">
+			<h2>5. Disregard contemporary web norms</h2>
+			<a href="https://web.archive.org/web/19970715124703/http://www.apple.com/" target="_blank">Apple 1997</a>
+			<a href="http://www.aliweb.com/" target="_blank">ALIWEB (the first search engine)</a>
+			<a href="https://www.art.yale.edu/" target="_blank">Yale School of Art</a>
+			<a href="https://www.bryanbraun.com/after-dark-css/?utm_source=hackernewsletter&utm_medium=email&utm_term=fun" target="_blank">After Dark Screensavers</a>
+			<a href="http://davemalloy.com/" target="_blank">Dave Malloy</a>
+			<a href="https://www.cbpm.org/files/BlackOrganizations.html" target="_blank">The Collective Black People Movement</a>
+			<a href="https://www.zombo.com/" target="_blank">Zombo Com</a>
+			<a href="https://wiby.me/surprise/" target="_blank">Random Web 1.0 website</a>
+		</div>
+		<div id="6" style="background-color: turquoise;">
+			<h2>6. (My websites)</h2>
+			<a href="https://gabrieldrozdov.github.io/risd22-webtype/projects/specimen/" target="_blank">Mini Mochi</a>
+			<a href="https://gabrieldrozdov.github.io/wpw22/" target="_blank">Web Programming Workshop 2022</a>
+			<a href="https://webprogramming.gdwithgd.com/" target="_blank">Web Programming Workshop 2023*</a>
+			<a href="https://compendium.noreplica.com/" target="_blank">A Thesis Compendium*</a>
+			<a href="https://compendium.noreplica.com/generator/" target="_blank">Compendium Generator*</a>
+			<a href="https://pixelweaverold.noreplica.com/" target="_blank">Pixel Weaver 1.0*</a>
+			<a href="https://pixelweaver.noreplica.com/" target="_blank">Pixel Weaver 2.0*</a>
+			<a href="https://smilethroughit.noreplica.com/" target="_blank">Smile Through It*</a>
+			<a href="https://earworm.noreplica.com/" target="_blank">Earworm*</a>
+			<a href="https://notes.noreplica.com/" target="_blank">Notes from Neither Here nor There*</a>
+			<a href="https://spore-site.com/" target="_blank">Spore Site*</a>
+			<a href="https://smallsites.gdwithgd.com/" target="_blank">Small Sites; Big Stories*</a>
+			<a href="https://www.thetalenthouse.net/" target="_blank">The Talent House*</a>
+			<a href="https://mfabiennial2023.risd.gd/" target="_blank">Highlights from the Impermanent Collection*</a>
+			<a href="https://colorsofextinction.com/" target="_blank">Colors of Extinction*</a>
+			<a href="https://gabrieldrozdov.github.io/vfw23/" target="_blank">Variable Fonts Workshop*</a>
+			<a href="https://gabrieldrozdov.github.io/onomatopoeia/" target="_blank">Onomatopeia*</a>
+			<a href="https://gabrieldrozdov.github.io/what-is-wikipedia/" target="_blank">What Is Wikipedia?*</a>
+		</div>
+	</div>
+</body>
+</html>
